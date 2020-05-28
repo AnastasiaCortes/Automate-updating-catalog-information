@@ -28,5 +28,5 @@ for file in os.listdir("./supplier-data/descriptions"):
         for fle in os.listdir("./supplier-data/images"):
             if fle == name:
                 fruits["image_name"] = name
-        response = requests.post("http://34.72.10.66/fruits/", json=fruits)
+        response = requests.post("http://35.232.92.159/fruits/", json=fruits)
         fruits.clear()
